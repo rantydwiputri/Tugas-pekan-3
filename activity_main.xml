@@ -1,0 +1,48 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/wedding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView android:text="Hoping you two have a beautiful life and an endless love story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        />
+    <TextView android:text="Congrats on your Wedding Day !!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/on"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <TextView android:text="From: Queen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:id="@+id/on"
+
+        />
+
+
+
+</RelativeLayout>
